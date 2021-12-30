@@ -2,14 +2,16 @@
   <section>
     <div class="bg-showcase">
     </div>
-    <h1 class="bg-title">Conheça nossa <br> vitrine de imóveis</h1>
-    <p class="bg-slogan">O match certo com SEU IMÓVEL!</p>
-    <p class="bg-info">Acompanhamos você durante toda a <br>jornada de compra  do seu imóvel.</p>
-
+    <div>
+      <h1 class="bg-title">Conheça nossa <br> vitrine de imóveis</h1>
+      <p class="bg-slogan">O match certo com SEU IMÓVEL!</p>
+      <p class="bg-info">Acompanhamos você durante toda a <br>jornada de compra  do seu imóvel.</p>
+    </div>
     
     <SearchProperties />
     <PropertiesList />
   </section>
+  
 </template>
 
 <script>

@@ -3,7 +3,7 @@
     <TheHeader />
     <main id="main">
       <Home />
-      <router-view/>
+      <!--<router-view/>-->
     </main>
     <TheFooter />
   </div>
@@ -86,5 +86,16 @@ img {
 
 .btn:hover {
  background: #ff0095de;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: 'Nunito-Sans', sans-serif;
+  font-size: 1.6rem;
+  color: #4C4C4C;
+  transition: all 0.3s;
+  outline: none;
 }
 </style>
