@@ -5,13 +5,13 @@
   <input name="search" id="search" type="text" placeholder="Buscar imóvel..." v-model="search">
   <input type="submit" id="searchButton" value="Buscar" @click.prevent="searchProperties">
  </div>
-
 </form>
  
 </template>
 
 <script>
 export default {
+ name: "SearchProperties",
  data() {
   return {
    search: ""

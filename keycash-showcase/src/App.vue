@@ -2,8 +2,8 @@
   <div id="app">
     <TheHeader />
     <main id="main">
-      <Home />
-      <!--<router-view/>-->
+      <router-view/>
+      <!--<Home />-->
     </main>
     <TheFooter />
   </div>
@@ -11,13 +11,13 @@
 
 <script>
 import TheHeader from "@/components/TheHeader.vue"
-import Home from "@/views/Home.vue"
+//import Home from "@/views/Home.vue"
 import TheFooter from "@/components/TheFooter.vue"
 
 export default {
   components: {
     TheHeader,
-    Home,
+    //Home,
     TheFooter
   }
 }
@@ -60,9 +60,9 @@ img {
 }
 
 #app  {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
 }
 
 #main {
@@ -88,14 +88,33 @@ img {
  background: #ff0095de;
 }
 
-input, textarea {
-  margin-bottom: 15px;
-  padding: 20px;
-  border-radius: 8px;
-  font-family: 'Nunito-Sans', sans-serif;
-  font-size: 1.6rem;
-  color: #4C4C4C;
-  transition: all 0.3s;
-  outline: none;
+input, 
+textarea {
+ margin-bottom: 15px;
+ padding: 20px;
+ border-radius: 8px;
+ font-family: 'Nunito-Sans', sans-serif;
+ font-size: 1.6rem;
+ color: #4C4C4C;
+ transition: all 0.3s;
+ outline: none;
+ width: 100%;
+}
+
+.v-enter,
+.v-leave-to {
+ opacity: 0;
+}
+.v-enter:active,
+.v-leave-to:active {
+ transition: all 0.3s;
+}
+
+.v-enter {
+ transform: translate3d(0, -20px, 0);
+}
+
+.v-leave-to {
+ transform: translate3d(0, -20px, 0);
 }
 </style>

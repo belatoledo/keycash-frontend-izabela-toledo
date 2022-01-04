@@ -90,7 +90,7 @@ margin: 16px 48px;
 
 footer {
  position: relative;
- top: 130px;
+ top: 60px;
  color: #000000DE;
  background: #F6F6F6;
  padding: 20px 0;

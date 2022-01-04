@@ -39,7 +39,7 @@ export default {
    }
 
    pagesArray.splice(0, currentPage - rangeOffset);
-   pagesArray.splice(0, range, total);
+   //pagesArray.splice(0, range - total);
    return pagesArray;
   },
   totalPages() {
@@ -50,7 +50,7 @@ export default {
 };
 </script>
 
-<style scooped>
+<style scoped>
 ul {
  display: flex;
  justify-content: flex-end;
@@ -72,5 +72,13 @@ li a:hover {
  background: #F60094;
  color: #fff;
  font-weight: 600;
+}
+
+@media screen and (max-width: 425px) {
+ul {
+ display: flex;
+ justify-content: center;
+ grid-column: 1 / -1;
+}
 }
 </style>

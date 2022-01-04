@@ -41,6 +41,7 @@ export default {
   top: -470px;
   left: 280px;
   width: 440px;
+  min-width: 100%;
   display: flex;
   padding: 12px 24px ;
   border-radius: 8px;
@@ -76,5 +77,50 @@ export default {
   text-align: center;
   color: #fff;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 425px)  {
+  .bg-title {
+  position: relative;
+  top: -370px;
+  left: 0px;
+  width: 440px;
+  min-width: 100%;
+  display: flex;
+  padding: 12px 24px ;
+  border-radius: 8px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+}
+
+.bg-slogan {
+  position: relative;
+  top: -340px;
+  left: 15px;
+  width: 400px;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+  background: #f60094ce;
+  border-radius: 8px;
+}
+
+.bg-info {
+  position: relative;
+  top: -630px;
+  left: 15px;
+  width: 400px;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 8px;
+}
 }
 </style>
