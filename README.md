@@ -71,4 +71,4 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://www.linkedin.com/in/izabela-toledo/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61567726?v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Izabela toledo</b></sub></a> <a href="https://github.com/belatoledo">🚀</a>
+ <sub><b>Izabela Toledo</b></sub></a> <a href="https://github.com/belatoledo">🚀</a>
